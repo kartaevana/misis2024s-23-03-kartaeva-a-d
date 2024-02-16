@@ -1,9 +1,7 @@
-CHECK: 20240213-004416
+CHECK: 20240216-074454
 OK: file codeforces.id is correct
 OK: folder prj.codeforces structure is correct
 ERROR: file prj.lab/CMakeLists.txt is absent
-ERROR: file prj.test/CMakeLists.txt is absent
-ERROR: file prj.lab/complex/CMakeLists.txt is absent
 ERROR: file prj.lab/rational/CMakeLists.txt is absent
 ERROR: CMake generator failed
 ERROR: lab complex - test build failed
