@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 
-project(misis2024f-23-03-kartaeva-a-d)
+project(misis2024s-23-03-kartaeva-a-d)
 
 set(CMAKE_CXX_STANDARD 20)
 
