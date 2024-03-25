@@ -1,4 +1,4 @@
-//#ifndef COMPLEX_HPP
+#ifndef COMPLEX_HPP
 #define COMPLEX_HPP
 
 #include <iostream>
@@ -62,7 +62,7 @@ inline std::ostream& operator<<(std::ostream& ostrm, const Complex& rhs)
     return rhs.WriteTo(ostrm);
 }
 
-inline std::istream& operator>>(std::ostream& istrm, const Complex& rhs)
+inline std::istream& operator>>(std::istream& istrm, Complex& rhs)
 {
     return rhs.ReadFrom(istrm);
 }
