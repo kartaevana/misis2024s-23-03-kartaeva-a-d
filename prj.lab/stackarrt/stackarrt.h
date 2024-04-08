@@ -1,5 +1,5 @@
-#ifndef STACKARR
-#define STACKARR
+#ifndef STACKARRT
+#define STACKARRT
 
 #include "complex/complex.hpp"
 #include <cstddef>
@@ -31,4 +31,7 @@ private:
     T* data_ = nullptr;
 };
 
-#endif //STACKARR
+template<class T>
+S
+
+#endif //STACKARRT
