@@ -1,38 +1,32 @@
-//
-// Created by karta on 12.02.2024.
-//
+#ifndef STACKARR
+#define STACKARR
 
-#ifndef DOWNLOADS_STACKLST_H
-#define DOWNLOADS_STACKLST_H
-
+#include "complex/complex.hpp"
 #include <cstddef>
 
-class StackLst {
+class StackArr {
 public:
-    typedef int T;
+    StackArr() = default;
+    StackArr(const StackArr& rhs);
+
+    StackArr& operator=(const StackArr& rhs);
+
+    void Push(const Complex& rhs);
+    void Pop() noexcept;
+    Complex& Top();
+
+    const Complex& Top() const;
+
+    void Clear() noexcept;
+
+    bool IsEmpty() const noexcept;
+
+    ~StackArr();
 private:
-    struct Node{
-        T v;
-        Node* next = nullptr;
-    };
-    Node* head_ = nullptr;
-public:
-    StackLst() = default;
-    StackLst(const StackLst&);
-    ~StackLst() = default;
-
-    StackLst& operator=(const StackLst&) = default;
-    bool IsEmpty() noexcept;
-    void Push(const T& c);
-    void Pop();
-
+//    текущий индекс - индекс последнего внесённого элемента (НЕ следующего)
+    int current_index = -1;
+    std::ptrdiff_t capacity = 0;
+    Complex* data_ = nullptr;
 };
 
-inline
-Stack::~StackLst(){
-    while (!IsEmty()){
-        Pop();
-    }
-}
-
-#endif //DOWNLOADS_STACKLST_H
+#endif //STACKARR
