@@ -158,7 +158,7 @@ Release/D:/projects/misis2023f-23-check/misis2024s-23-03-kartaeva-a-d/bin.check/
 16/20 Test  #4: doctest_complex_io ...............   Passed    0.02 sec
 17/20 Test  #5: doctest_complex_m ................***Failed    0.02 sec
 18/20 Test  #6: doctest_rational .................   Passed    0.02 sec
-19/20 Test  #7: doctest_rational_io ..............   Passed    0.01 sec
+19/20 Test  #7: doctest_rational_io ..............   Passed    0.02 sec
 20/20 Test  #8: doctest_rational_m ...............***Failed    0.01 sec
 
 15% tests passed, 17 tests failed out of 20
