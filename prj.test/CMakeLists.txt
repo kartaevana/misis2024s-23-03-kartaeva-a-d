@@ -1,4 +1,7 @@
-add_executable(test_complex test_complex.cpp)
+add_executable(test_complex test_complex.cpp
+        ../prj.codeforces/0485a.cpp
+        ../prj.codeforces/0579a.cpp
+        ../prj.codeforces/0617a.cpp)
 target_link_libraries(test_complex complex)
 
 add_executable(test_rational test_rational.cpp)
