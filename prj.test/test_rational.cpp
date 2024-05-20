@@ -1,6 +1,6 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-//#include "doctest.h"
-/*#include <rational/rational.hpp>
+#include "doctest.h"
+#include <rational/rational.hpp>
 
 TEST_CASE("rational ctor") {
 Rational r_def;
@@ -102,4 +102,4 @@ CHECK(ostream1.str() == "2/3");
 std::ostringstream ostream2;
 ostream2 << Rational(-2, 3);
 CHECK(ostream2.str() == "-2/3");
-}*/
+}
