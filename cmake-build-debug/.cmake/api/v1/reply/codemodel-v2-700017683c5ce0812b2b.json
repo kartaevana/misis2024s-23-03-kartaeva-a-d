@@ -1,0 +1,303 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "prj.codeforces",
+					"jsonFile" : "directory-prj.codeforces-Debug-54b588f5cbccc6f173d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "prj.codeforces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "prj.lab",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab-Debug-02d5af99ecd44d686785.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "prj.lab"
+				},
+				{
+					"build" : "prj.lab/complex",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.complex-Debug-00bb73331ce7dd08235a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "prj.lab/complex",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "prj.lab/rational",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.rational-Debug-e8d2983363733fa2a523.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "prj.lab/rational",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "prj.lab/dynarr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.dynarr-Debug-f08c71dc83a08e0078cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "prj.lab/dynarr",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "prj.lab/stackarr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.stackarr-Debug-53f4daf99156112cc136.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "prj.lab/stackarr",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "prj.lab/stackarrt",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-prj.lab.stackarrt-Debug-eeb53cdbd6fa2b7d9677.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "prj.lab/stackarrt",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "prj.test",
+					"jsonFile" : "directory-prj.test-Debug-8d06470f3d57bfdcb843.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "prj.test",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "misis2024s-23-03-kartaeva-a-d",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "0271a::@899f631a4aa791cf95cc",
+					"jsonFile" : "target-0271a-Debug-0b284d04e50a86e49db9.json",
+					"name" : "0271a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "0485a::@899f631a4aa791cf95cc",
+					"jsonFile" : "target-0485a-Debug-68deea0d3780f0084bba.json",
+					"name" : "0485a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "0579a::@899f631a4aa791cf95cc",
+					"jsonFile" : "target-0579a-Debug-e6425519182955f4a68e.json",
+					"name" : "0579a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "0617a::@899f631a4aa791cf95cc",
+					"jsonFile" : "target-0617a-Debug-81f4252693d23c3b029e.json",
+					"name" : "0617a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "complex::@f01986494a78af0cc1db",
+					"jsonFile" : "target-complex-Debug-c905a9104c8297f3c447.json",
+					"name" : "complex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "dynarr::@0ea11cdcf82ac2213dcb",
+					"jsonFile" : "target-dynarr-Debug-2dbbba77e4853cca00f0.json",
+					"name" : "dynarr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "rational::@fd4f4962d1a8e6d13fee",
+					"jsonFile" : "target-rational-Debug-1d99243e4378387e520c.json",
+					"name" : "rational",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "stackarr::@5cb587019536b540a06d",
+					"jsonFile" : "target-stackarr-Debug-ed1dca31815d4238b55f.json",
+					"name" : "stackarr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "stackarrt::@22b8ac2838b41b53b15a",
+					"jsonFile" : "target-stackarrt-Debug-30603c03cbdff9e41e25.json",
+					"name" : "stackarrt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test_complex::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_complex-Debug-fcfc8ff8c530403cc045.json",
+					"name" : "test_complex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test_dynarr::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_dynarr-Debug-62860a46c10d2aab64a1.json",
+					"name" : "test_dynarr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test_rational::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_rational-Debug-630c96d077a558e4018a.json",
+					"name" : "test_rational",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "test_stackarr::@03e42033715ba8c02d37",
+					"jsonFile" : "target-test_stackarr-Debug-61e48b7ccd5e5a3597c8.json",
+					"name" : "test_stackarr",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/karta/CLionProjects/2024s/misis2024s-23-03-kartaeva-a-d/cmake-build-debug",
+		"source" : "C:/Users/karta/CLionProjects/2024s/misis2024s-23-03-kartaeva-a-d"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
