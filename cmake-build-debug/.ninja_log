@@ -1,0 +1,9 @@
+# ninja log v5
+0	742	7378986210592373	prj.lab/stackarr/CMakeFiles/stackarr.dir/stackarr.cpp.obj	1fff927ffaf55889
+746	1078	7378986213976387	prj.lab/stackarr/libstackarr.a	8cb4ba8ee13663b3
+8	4945	7378986252506499	prj.test/CMakeFiles/test_stackarr.dir/test_stackarr.cpp.obj	e1f3ed37a7f4f949
+7	98	7378987407772262	prj.test/CMakeFiles/test_rational.dir/test_rational.cpp.obj	be59058fa86e8d23
+0	863	7378987415412482	prj.lab/rational/CMakeFiles/rational.dir/rational.cpp.obj	c5ecef8fbe4ff6ce
+863	961	7378987416399415	prj.lab/rational/librational.a	9bf3d591aadc45db
+5	5202	7378987854933226	prj.test/CMakeFiles/test_rational.dir/test_rational.cpp.obj	be59058fa86e8d23
+5210	6238	7378987865289458	C:/Users/karta/CLionProjects/2024s/misis2024s-23-03-kartaeva-a-d/bin.dbg/test_rational.exe	6437cd2aa848ccea
